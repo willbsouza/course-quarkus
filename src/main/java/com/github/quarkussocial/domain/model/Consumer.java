@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Consumer extends PanacheEntityBase {
+public class Consumer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
