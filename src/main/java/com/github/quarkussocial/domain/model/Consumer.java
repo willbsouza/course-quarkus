@@ -5,8 +5,10 @@ import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.jboss.logging.annotations.Pos;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Getter
