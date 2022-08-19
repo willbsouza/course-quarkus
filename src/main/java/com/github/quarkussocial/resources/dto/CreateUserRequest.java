@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 
 @Getter
 @Setter
-public class CreateConsumerRequest {
+public class CreateUserRequest {
 
     @NotBlank(message = "Name is Required.")
     private String name;

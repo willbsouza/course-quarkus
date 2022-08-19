@@ -1,11 +1,9 @@
 package com.github.quarkussocial.resources.dto;
 
 import com.github.quarkussocial.domain.model.Post;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.jboss.logging.annotations.Pos;
 
 import java.time.LocalDateTime;
 
