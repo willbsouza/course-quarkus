@@ -44,7 +44,7 @@ class PostResourceTest {
     @BeforeEach
     @Transactional
     public void setUp(){
-        //user deafult tests
+        //user default tests
         User user = new User();
         user.setAge(29);
         user.setName("Will");

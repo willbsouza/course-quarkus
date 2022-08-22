@@ -49,6 +49,11 @@ public class FollowerResource {
 
     @GET
     public Response listFollowers(@PathParam("userId") Long userId){
+        User user = userRepository.findById(userId);
+        if(user == null){
+            return Response.status(404).build();
+        }
+
         List<Follower> list = followerRepository.findByUser(userId);
         FollowersPerUserResponse responseObject = new FollowersPerUserResponse();
 
